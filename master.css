@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+
+}
+
+.container {
+    position: relative;
+    height: 32vw;
+    top: 13vw;
+    left: 30vw;
+    width: 45vw;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.photo {
+    position: absolute;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px; 
+}
+
+.title {
+    position: absolute;
+    font-size: 2.5vw;
+    right: 8vw;
+    top: 4vw;
+}
+
+.perfume {
+    position: absolute;
+    right: 15vw;
+    top: 2vw;
+    font-size: 1.2vw;
+    letter-spacing: 3px;
+    color: rgba(128, 128, 128, 0.741);
+}
+
+.info {
+    position: absolute;
+    right: 4vw;
+    top: 14vw;
+    color: rgba(128, 128, 128, 0.804);
+    max-width: 18vw;
+    font-size: 1.3vw;
+}
+
+.price {
+    position: absolute;
+    right: 13vw;
+    bottom: 7vw;
+    font-size: 2.5vw;
+    color: hsl(158, 36%, 37%);
+}
+
+.discount {
+    position: absolute;
+    bottom: 7.5vw;
+    right: 7vw;
+    font-size: 1.3vw;
+    text-decoration: line-through;
+    color: rgba(128, 128, 128, 0.789);
+}
+
+.button {
+    position: absolute;
+    background-color: hsl(158, 36%, 37%);
+    bottom: 2vw;
+    right: 2vw;
+    width: 20vw;
+    text-align: center;
+    padding: 7px;
+    font-size: 1.5vw;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+
+.button:hover {
+    background-color: hsl(158, 37%, 26%);
+}
+
+.icon {
+    position: absolute;
+    left: 4.2vw;
+    top: 0.9vw;
+}
